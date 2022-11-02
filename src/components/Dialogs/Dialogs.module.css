@@ -1,0 +1,14 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    
+}
+
+.items, .messages {
+padding: 10px;
+}
+
+.items a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,10 @@
+.header{
+    grid-area: h;
+    background-color: burlywood;
+
+}
+img {
+    margin: 10px;
+    width: 80px;
+    border-radius: 50%;
+}
