@@ -12,10 +12,9 @@ const MyPosts = (props) => {
             </div>
             <div>New post</div>
             <div className={classes.posts}>
-                {props.posts.map(p => <Post key={p.id} message={p.post} likesCount={p.likesCount}/>)}
+                {props.posts.map(p => <Post key={p.id} message={p.post} likesCount={`${p.likesCount} likes`}/>)}
             </div>
         </div>
-
     )
 }
 
